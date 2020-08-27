@@ -43,6 +43,7 @@ namespace 航班订票系统
         public string Passenger_name { get; set; }
         public UserOrder next;
     }
+ 
     // “用户订单链表”
     public class UserOrderList
     {
