@@ -28,9 +28,12 @@ namespace 航班订票系统
         private string _common_file_path = "../../../航班订票系统数据/用户.txt";
         private string _admin_file_path = "../../../航班订票系统数据/管理员.txt";
         private string _info_file_path = "../../../航班订票系统数据/航班信息.txt";
-        // 只读属性
+
+        // 用户信息文件路径
         public string Common_file_path { get { return _common_file_path; } }
+        // 管理员信息文件路径
         public string Admin_file_path { get { return _admin_file_path; } }
+        // 航班信息文件路径
         public string Info_file_path { get { return _info_file_path; } }
 
         // 从文件中读取用户数据添加到链表
