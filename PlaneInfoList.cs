@@ -34,7 +34,7 @@ namespace 航班订票系统
         public string Start_time { get; set; }
         // 降落时间
         public string End_time { get; set; }
-        // 剩余票量
+        // 剩余票数
         public int Tickets { get; set; }
         // 票价
         public int Price { get; set; }
